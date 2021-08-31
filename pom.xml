@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
-        <version>17</version>
+        <version>23</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -380,8 +380,8 @@
                 <role>committer</role>
                 <role>PMC</role>
             </roles>
-            <organization>Cloudera Inc.</organization>
-            <!--<organizationUrl>https://www.cloudera.com</organizationUrl>-->
+            <organization>Privacera Inc</organization>
+            <!--<organizationUrl>https://www.privacera.com</organizationUrl>-->
         </developer>
         <developer>
             <id>mandy</id>
@@ -697,7 +697,7 @@
         <curator.version>4.3.0</curator.version>
         <doxia.version>1.8</doxia.version>
         <dropwizard-metrics>3.2.2</dropwizard-metrics>
-        <elasticsearch.version>6.8.3</elasticsearch.version>
+        <elasticsearch.version>6.8.15</elasticsearch.version>
         <entity.repository.impl>org.apache.atlas.repository.audit.InMemoryEntityAuditRepository</entity.repository.impl>
         <enunciate-maven-plugin.version>2.13.2</enunciate-maven-plugin.version>
         <failsafe.version>2.18.1</failsafe.version>
@@ -2161,7 +2161,7 @@
                     <dependency>
                         <groupId>org.apache.atlas</groupId>
                         <artifactId>atlas-buildtools</artifactId>
-                        <version>1.0</version>
+                        <version>${project.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
